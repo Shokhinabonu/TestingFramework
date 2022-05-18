@@ -1,0 +1,72 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+    
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch HW7SampleCodeTestHTML",
+            "request": "launch",
+            "mainClass": "HW7SampleCodeTest",
+            "args": "-h HW7TestOutput.html"
+        },
+        {
+            "type": "java",
+            "name": "Launch HW7SampleCodeTestHTMLFull",
+            "request": "launch",
+            "mainClass": "HW7SampleCodeTest",
+            "args": "-h HW7TestOutput.html CheckPut CheckTheOutput"
+        },
+        {
+            "type": "java",
+            "name": "Launch HW7SampleCodeTestFull",
+            "request": "launch",
+            "mainClass": "HW7SampleCodeTest",
+            "args": "CheckPut CheckTheOutput"
+        },
+        {
+            "type": "java",
+            "name": "Launch HW7SampleCodeTestEmpty",
+            "request": "launch",
+            "mainClass": "HW7SampleCodeTest",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch SampleCodeTestHTML",
+            "request": "launch",
+            "mainClass": "SampleCodeTest",
+            "args": "-h  SampleaCodeOutput.html"
+        },
+        {
+            "type": "java",
+            "name": "Launch SampleCodeTestHTMLFull",
+            "request": "launch",
+            "mainClass": "SampleCodeTest",
+            "args": "-h SampleaCodeOutput.html CheckInt CheckDouble"
+        },
+        {
+            "type": "java",
+            "name": "Launch SampleCodeTestFull",
+            "request": "launch",
+            "mainClass": "SampleCodeTest",
+            "args": "CheckInt CheckDouble"
+        },
+        {
+            "type": "java",
+            "name": "Launch  SampleCodeTestEmpty",
+            "request": "launch",
+            "mainClass": "SampleCodeTest",
+            "args": ""
+        },
+    ]
+}
